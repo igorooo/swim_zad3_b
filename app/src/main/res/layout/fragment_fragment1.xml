@@ -9,29 +9,36 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-
-    <FrameLayout
-        android:id="@+id/FrameL_RG"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="123dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/FrameL1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712"
-        tools:layout_editor_absoluteX="0dp">
+        android:layout_height="match_parent">
 
-    </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/FrameL1"
-        android:layout_width="match_parent"
-        android:layout_height="340dp"
-        android:layout_marginBottom="104dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    </FrameLayout>
+            <FrameLayout
+                android:id="@+id/FrameL_RG"
+                android:layout_width="match_parent"
+                android:layout_height="136dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameL1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 
 
 
